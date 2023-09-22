@@ -1,3 +1,6 @@
+"""
+    Encuentra 3 valores que tengan los tipos int, str, y float. Comprueba con Python que sus valores son de los tipos pedidos
+"""    
 myInt = 33
 myStr = "Roberto"
 myFloat = 3.45
