@@ -14,5 +14,4 @@ area = lambda b, h : b * h
 
 
 # Mostrar el resultado por pantalla
-print(
-    f'El área del rectángulo de base {base} y altura {altura} es {area(base, altura)}')
+print(f'El área del rectángulo de base {base} y altura {altura} es {area(base, altura)}')
