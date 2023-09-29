@@ -13,6 +13,7 @@ b = (4, 5, 6)
 def calc_vector(a, b) -> list:
     v = [0, 0, 0]  # v es el vector que va de a a b (AB)
 
+    # Usando las matemáticas se asignan los valores a las posiciones del vector
     for i in range(len(a)):
         v[i] = b[i] - a[i]
     
@@ -21,11 +22,11 @@ def calc_vector(a, b) -> list:
 def calc_vector_module(vec:list) -> int:
     import math
     
-    m = 0
+    m = 0 # variable a la que se sumarán los cuadrados de los elementos del vector
     
     for i in range(len(vec)):
         m += vec[i] ** 2
     
-    return math.sqrt(m)
+    return math.sqrt(m) # Devuelve la raíz cuadrada de la suma de los cuadrados de los componentes del vector (El módulo)
 
 print(calc_vector_module(calc_vector(a,b)))
