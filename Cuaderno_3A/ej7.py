@@ -4,8 +4,8 @@ vocal o no, utilizando la construcción if-elif. Repite el ejercicio utilizando 
 vez el operador booleano or y observa las diferencias.
 """
 
-def is_vocal(x:str)->bool:
-    return True if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u' else False
+vocales = ['a', 'e', 'i', 'o', 'u']
+is_vocal = lambda x: True if x in vocales else False
 
 x = input('Introduce un carácter: ')
 print(is_vocal(x))
