@@ -7,9 +7,6 @@ como “Hola”. Nuestra función recibirá un texto y retornará verdadero si e
 entero (dando por válida la entrada) o falso (rechazando la entrada).
 
 """
-
-en = input("Introduce un valor: ")
-
 def validar_entero(inp)->bool:
     try:
         int(inp)
@@ -17,6 +14,3 @@ def validar_entero(inp)->bool:
         return False
     else: 
         return True
-        
-
-print(validar_entero(en))
