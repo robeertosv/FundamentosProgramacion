@@ -14,3 +14,5 @@ temperatura = float(input("Introduce la temperatura: "))
 
 def calc(p, t):
     return (0.082 * t) / p
+
+print(calc(presion, temperatura))

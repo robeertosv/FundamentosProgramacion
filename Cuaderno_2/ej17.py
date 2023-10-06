@@ -9,6 +9,6 @@ def isIdeal(p:float, t:float)->bool:
     """
     p tiene que introducirse en atmosferas y t en ºC
     """
-    return "Está en condiciones ideales" if p==1 and t==0 else "No está en condiciones ideales"
+    return True if p==1 and t==0 else False
 
 print(isIdeal(1,0))
