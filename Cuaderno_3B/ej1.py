@@ -14,3 +14,19 @@ def leer_entero_validado():
  cuando se ha asegurado de que es realmente un entero
  ""
 """
+
+def leer_entero_validado():
+    correcto = False
+    num = None
+    
+    while not correcto:
+        try:
+            num = int(input("Introduce un número: "))
+        except ValueError:
+            print("No has metido un número válido, intentalo de nuevo")
+        else:
+            correcto = True
+            
+    return num
+
+print(leer_entero_validado())
