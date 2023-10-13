@@ -13,7 +13,7 @@ print(entero_pedido(min, max, f'mes entre {min} y {max}: '))
 """
 
 
-def entero_pedido(min:int, max:int, msg:str)->None:
+def entero_pedido(min:int, max:int, msg:str):
     num = None
     correct = False
 
@@ -25,9 +25,9 @@ def entero_pedido(min:int, max:int, msg:str)->None:
 
         if num >= min and num <= max:
             print(msg)
-            return
+            correct = True
         else:
             print("Número fuera de rango")
-
+    return
 
 entero_pedido(0, 10, f'El numero está ok')

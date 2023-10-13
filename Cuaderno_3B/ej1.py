@@ -27,6 +27,12 @@ def leer_entero_validado():
         else:
             correcto = True
             
-    return num
+    return correcto
 
-print(leer_entero_validado())
+def is_int(x:int)->bool:
+    try:
+        int(x)
+    except ValueError:
+        return False
+    else:
+        return True
