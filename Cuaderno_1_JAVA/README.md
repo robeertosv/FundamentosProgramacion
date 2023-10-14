@@ -1,6 +1,6 @@
 # Enunciados / Descripción del problema
 
-Los enunciados de cada ejercicio están en el archivo de python correspondiente a cada ejercicio
+Los enunciados de cada ejercicio están en el archivo de python correspondiente
 
 Por ejemplo, para 
 ```bash
