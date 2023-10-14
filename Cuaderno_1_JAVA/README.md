@@ -2,7 +2,7 @@
 
 Los enunciados de cada ejercicio están en el archivo de python correspondiente
 
-Por ejemplo, para 
+Por ejemplo, para
 ```bash
 ej5.java
 ```
