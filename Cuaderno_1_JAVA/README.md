@@ -2,7 +2,8 @@
 
 Los enunciados de cada ejercicio están en el archivo de python correspondiente a cada ejercicio
 
-Por ejemplo, para ```bash
+Por ejemplo, para 
+```bash
 ej5.java
 ```
 El enunciado está en
