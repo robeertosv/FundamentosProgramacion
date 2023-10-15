@@ -8,13 +8,14 @@ public class ej1_3b {
     public static Boolean leer_entero_validado() {
         Scanner read = new Scanner(System.in);
         boolean correcto = false;
-        Object num = null;
-
+        Object num;
+        
         while(!correcto) {
             try {
                 
                 System.out.println("Introduce un número: ");
                 num = Integer.parseInt(read.nextLine());
+                System.out.println(num);
                 read.close();
                 correcto = true;
             } catch (Exception e) {
