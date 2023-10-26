@@ -1,8 +1,8 @@
 def triangulo(n):
     for i in range(1,n):
         for j in range(i):
-            print('- ', end="")
+            print('* ', end="")
             
         print()
         
-triangulo(7)
+triangulo(10)
