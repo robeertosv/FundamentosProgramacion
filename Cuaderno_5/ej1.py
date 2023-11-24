@@ -2,14 +2,17 @@ datos = [
     {
         "nombre": "Roberto",
         "edad": 17,
+        "sexo": "H"
     },
     {
         "nombre": "Pepe",
-        "edad": 18
+        "edad": 18,
+        "sexo": "H"
     },
     {
         "nombre": "Luis",
-        "edad": 19
+        "edad": 19,
+        "sexo": "H"
     }
 ]
 
