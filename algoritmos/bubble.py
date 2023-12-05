@@ -1,12 +1,13 @@
-array = [1,2,8,5,8,5,786,54,78,87,45,24,8,54,5,84,5,45,4,15,6,4,8,6,4,8]
+arr = [2,8,7,3,51,58,63,35,68,1,3,8,16,3,8,14,54,13,384,185,31,138]
 
 def bubbleSort(arr:list)->list:
-    n = len(arr)
+    n = len(arr) - 1
     
-    for i in range(n-1):
-        for j in range(n-1-i):
-            if arr[j] > arr[j+1]:
+    for i in range(n):
+        for j in range(n-i):
+            if arr[j+1] < arr[j]:
                 arr[j+1], arr[j] = arr[j], arr[j+1]
+                
     return arr
 
-print(bubbleSort(array))
+print(bubbleSort(arr))
