@@ -1,20 +1,8 @@
 arr = [2,8,7,3,51,58,63,35,68,1,3,8,3,8,14,54,13,384,185,31,138,16]
 
-# Se puede usar cualquier algoritmo de búsqueda, cuanto más rápido mejor, pero me daba pereza hacerlo con quickSort
-def selectionSort(arr:list)->list:
-    for i in range(len(arr)):
-        min_idx = i
-        
-        for j in range(i+1, len(arr)):
-            if arr[min_idx] > arr[j]:
-                min_idx = j
-        
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
-    return arr
-
 # Se trata de ir partiendo el array en mitades, para ello tiene que estar ordenado
 def binarySearch(arr:list, elem:int)->str:
-    arr = selectionSort(arr) # Ordenar el array
+    arr.sort() # El array tiene que estar ordenado, se puden usar los algoritmos quickSort, insertionSort, bubble... Pero este ya te lo da Python
     
     found = False
     i = 0
