@@ -11,4 +11,4 @@ def sumEven(n):
         else:
             return sumEven(n-1)
         
-print(sumEven(10))
+print(sumEven(6))
