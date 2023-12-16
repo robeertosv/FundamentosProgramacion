@@ -1,17 +1,14 @@
 """
 Implementar un programa que dados dos números, calcule el producto de
 forma recursiva. Los números a multiplicar deben ser leídos por teclado.
-
 NOTA: no puede utilizar el operador de multiplicación así que utilice sumas.
 """
 
-def cumprod(num:float, times:int)->float:
-    suma = 0
+def cumprod(a,b):
     
-    if times != 0:
-        suma += num
-        suma += cumprod(num, times-1)
+    if b == 0:
+        return 0
+    else:
+        return a + cumprod(a, b-1)
     
-    return suma
-
-print(cumprod(4, 3))
+print(cumprod(3,2))
